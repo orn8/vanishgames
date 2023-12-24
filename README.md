@@ -22,7 +22,7 @@ VanishGames is a hub for unblocked games. Built with [HTML](https://www.w3.org/h
 
 ## Contributing
 
-VanishGames would like to get contibutions from the community (try adding games and stuff).
+VanishGames would like to get contributions from the community (try adding games and stuff).
 
 If you'd like to contribute, please fork the repo and make changes as you'd like. Pull requests are welcome.
 
