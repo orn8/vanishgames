@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 align="center"><a href="https://orn8.github.io/vanishgames">orn8.github.io</a></h1>
+  <h1 align="center"><a href="https://orn8.github.io/vanishgames">VanishGames</a></h1>
   <h3>Unblocked games, but without the ads. (Everything is for educational purposes only)</h3>
 </div>
 
