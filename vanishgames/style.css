@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+
+nav button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: #555;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #ffd700;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 8px;
+    border: 3px solid #ffd700;
+}
+
+.button:hover {
+    background-color: #555;
+    color: white;
+}
+.searchSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+#searchInput {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: calc(100% - 40px);
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: 3px solid #ffd700;
+    cursor: pointer;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#searchButton:hover {
+    background-color: #555;
+    color: white;
+}
