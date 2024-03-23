@@ -36,9 +36,6 @@
           document.title = "VanishGames - " + gameTitle;
           var iframe = document.getElementById('gameIframe');
           iframe.src = decodeURIComponent(gameUrl);
-          iframe.onload = function() {
-            iframe.focus();
-          };
         }
       });
     </script>
