@@ -1,6 +1,6 @@
 <div align="center">
   <h1 align="center"><a href="https://orn8.github.io/vanishgames">VanishGames</a></h1>
-  <h3>Unblocked games, but without the ads. (Everything is for educational purposes only)</h3>
+  <h3>Unblocked games, but better.</h3>
 </div>
 
 </br>
@@ -12,13 +12,14 @@
 
 </br>
 
-VanishGames is a hub for unblocked games. Built with [HTML](https://www.w3.org/html/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+VanishGames is an ad-less, and fast website for unblocked games. Built with [HTML](https://www.w3.org/html/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
 ## Current Features:
 
 - **No Ads:** Experience the magic of gaming, but without any ads.
 - **Many Games:** Enjoy a library of 70+ games!
 - **Simple, Minimalistic Design:** Don't focus on the site, focus on the games (this is definitely not me being bad at html).
+- **Blazing fast speeds:** Get to the games faster than ever before!
 
 ## Contributing
 
