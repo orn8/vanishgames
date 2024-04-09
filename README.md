@@ -3,14 +3,14 @@
   <h3>Unblocked games, but better.</h3>
 </div>
 
-</br>
+<br/>
 
 <div align="center">
   <a href="https://github.com/orn8/vanishgames/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/orn8/vanishgames?style=for-the-badge"></a>
   <a href="https://github.com/orn8/vanishgames/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-AGPLv3-purple?style=for-the-badge"></a>
 </div>
 
-</br>
+<br/>
 
 VanishGames is an ad-less, and fast website for unblocked games. Built with [HTML](https://www.w3.org/html/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
