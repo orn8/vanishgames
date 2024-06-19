@@ -112,5 +112,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     width: 90vw;
-    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
