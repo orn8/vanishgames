@@ -31,7 +31,6 @@ nav button:hover {
 }
 
 main {
-    width: 90%;
     max-width: 800px;
     margin: auto;
     padding: 20px;
@@ -112,5 +111,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
