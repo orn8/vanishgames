@@ -111,6 +111,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 90%;
+    width: 90vw;
     margin: 0 auto;
 }
