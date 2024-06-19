@@ -3,7 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('gamelist.txt')
       .then(response => response.text())
       .then(gamesString => {
-        setupButtons(gamesString);
+        const lines = gamesString.split('\n');
+        const filteredLines = lines.filter(line => !line.trim().startsWith('##'));
+        const filteredGamesString = filteredLines.join('\n');
+        setupButtons(filteredGamesString);
       });
   }
 
