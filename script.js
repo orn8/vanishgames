@@ -20,6 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
       })
       .sort((a, b) => a.name.localeCompare(b.name));
 
+    const gamesHeading = document.querySelector('h1');
+    gamesHeading.textContent = `Games (${gamesArray.length})`;
+    
     gamesArray.forEach(game => {
       const button = document.createElement('button');
       button.textContent = game.name;
