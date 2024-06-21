@@ -5,6 +5,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <style type="text/css">
     body,
@@ -13,6 +14,8 @@
       padding: 0;
       height: 100%;
       overflow: hidden;
+      background-color: black;
+      font-family: 'Roboto', sans-serif;
     }
 
     #content {
@@ -28,7 +31,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background-color: rgba(0, 0, 0, 0.8);
+      background-color: rgba(0, 0, 0, 0.6);
       color: white;
       padding: 20px;
       border-radius: 10px;
@@ -37,14 +40,27 @@
       z-index: 1000;
       opacity: 1;
       transition: opacity 1s ease-in-out;
+      backdrop-filter: blur(10px);
     }
 
     #popup.hidden {
       opacity: 0;
       pointer-events: none;
     }
+
+    #overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(10px);
+      z-index: 500;
+    }
   </style>
   <body>
+    <div id="overlay"></div>
     <div id="content">
       <iframe id="gameIframe" width="100%" height="100%" frameborder="0"></iframe>
     </div>
@@ -52,11 +68,12 @@
       document.addEventListener('DOMContentLoaded', function() {
         const popup = document.createElement('div');
         popup.id = 'popup';
-        popup.textContent = 'You must click the screen after this popup to enable input';
+        popup.textContent = 'You must click the screen to enable input';
         document.body.appendChild(popup);
 
         function hidePopup() {
           popup.classList.add('hidden');
+          document.getElementById('overlay').style.display = 'none';
           setTimeout(() => popup.remove(), 1000);
         }
 
@@ -64,7 +81,7 @@
           hidePopup();
         });
 
-        setTimeout(hidePopup, 5000);
+        setTimeout(hidePopup, 3000);
 
         var urlParams = new URLSearchParams(window.location.search);
         var gameUrl = urlParams.get('url');
