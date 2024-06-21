@@ -22,6 +22,27 @@
       bottom: 0;
       top: 0px;
     }
+
+    #popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      text-align: center;
+      z-index: 1000;
+      opacity: 1;
+      transition: opacity 1s ease-in-out;
+    }
+
+    #popup.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
   </style>
   <body>
     <div id="content">
@@ -29,6 +50,22 @@
     </div>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
+        const popup = document.createElement('div');
+        popup.id = 'popup';
+        popup.textContent = 'You must click the screen after this popup to enable input';
+        document.body.appendChild(popup);
+
+        function hidePopup() {
+          popup.classList.add('hidden');
+          setTimeout(() => popup.remove(), 1000);
+        }
+
+        document.addEventListener('click', function() {
+          hidePopup();
+        });
+
+        setTimeout(hidePopup, 5000);
+
         var urlParams = new URLSearchParams(window.location.search);
         var gameUrl = urlParams.get('url');
         var gameTitle = urlParams.get('title');
