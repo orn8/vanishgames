@@ -37,7 +37,7 @@
       border-radius: 10px;
       font-size: 1.2rem;
       text-align: center;
-      z-index: 1000;
+      z-index: 1001;
       opacity: 1;
       transition: opacity 1s ease-in-out;
       backdrop-filter: blur(10px);
@@ -56,7 +56,14 @@
       height: 100%;
       background: rgba(0, 0, 0, 0.8);
       backdrop-filter: blur(10px);
-      z-index: 500;
+      z-index: 1000;
+      opacity: 1;
+      transition: opacity 1s ease-in-out;
+    }
+
+    #overlay.hidden {
+      opacity: 0;
+      pointer-events: none;
     }
   </style>
   <body>
@@ -73,8 +80,11 @@
 
         function hidePopup() {
           popup.classList.add('hidden');
-          document.getElementById('overlay').style.display = 'none';
-          setTimeout(() => popup.remove(), 1000);
+          document.getElementById('overlay').classList.add('hidden');
+          setTimeout(() => {
+            popup.remove();
+            document.getElementById('overlay').remove();
+          }, 1000);
         }
 
         document.addEventListener('click', function() {
