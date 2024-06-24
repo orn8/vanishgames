@@ -41,6 +41,7 @@
       opacity: 1;
       transition: opacity 1s ease-in-out;
       backdrop-filter: blur(10px);
+      display: none;
     }
 
     #popup.hidden {
@@ -59,6 +60,7 @@
       z-index: 1000;
       opacity: 1;
       transition: opacity 1s ease-in-out;
+      display: none;
     }
 
     #overlay.hidden {
@@ -73,19 +75,15 @@
     </div>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
-        var urlParams = new URLSearchParams(window.location.search);
-        var gameUrl = urlParams.get('url');
-        var gameTitle = urlParams.get('title');
-        if (gameUrl) {
-          document.title = "VanishGames - " + gameTitle;
-          var iframe = document.getElementById('gameIframe');
-          iframe.src = decodeURIComponent(gameUrl);
-        }
-
         const popup = document.createElement('div');
         popup.id = 'popup';
         popup.textContent = 'You must click the screen after this popup to enable input';
         document.body.appendChild(popup);
+
+        function showPopup() {
+          document.getElementById('overlay').style.display = 'block';
+          popup.style.display = 'block';
+        }
 
         function hidePopup() {
           popup.classList.add('hidden');
@@ -100,12 +98,19 @@
           hidePopup();
         });
 
-        iframe.addEventListener('load', function() {
-          popup.style.display = 'block';
-          document.getElementById('overlay').style.display = 'block';
+        var urlParams = new URLSearchParams(window.location.search);
+        var gameUrl = urlParams.get('url');
+        var gameTitle = urlParams.get('title');
+        if (gameUrl) {
+          document.title = "VanishGames - " + gameTitle;
+          var iframe = document.getElementById('gameIframe');
+          iframe.src = decodeURIComponent(gameUrl);
 
-          setTimeout(hidePopup, 2000);
-        });
+          iframe.addEventListener('load', function() {
+            showPopup();
+            setTimeout(hidePopup, 2000);
+          });
+        }
       });
     </script>
   </body>
