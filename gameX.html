@@ -73,9 +73,18 @@
     </div>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
+        var urlParams = new URLSearchParams(window.location.search);
+        var gameUrl = urlParams.get('url');
+        var gameTitle = urlParams.get('title');
+        if (gameUrl) {
+          document.title = "VanishGames - " + gameTitle;
+          var iframe = document.getElementById('gameIframe');
+          iframe.src = decodeURIComponent(gameUrl);
+        }
+
         const popup = document.createElement('div');
         popup.id = 'popup';
-        popup.textContent = 'You must click the screen after this popup to enable key input';
+        popup.textContent = 'You must click the screen to enable input';
         document.body.appendChild(popup);
 
         function hidePopup() {
@@ -91,16 +100,7 @@
           hidePopup();
         });
 
-        setTimeout(hidePopup, 3000);
-
-        var urlParams = new URLSearchParams(window.location.search);
-        var gameUrl = urlParams.get('url');
-        var gameTitle = urlParams.get('title');
-        if (gameUrl) {
-          document.title = "VanishGames - " + gameTitle;
-          var iframe = document.getElementById('gameIframe');
-          iframe.src = decodeURIComponent(gameUrl);
-        }
+        setTimeout(hidePopup, 2000);
       });
     </script>
   </body>
