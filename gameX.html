@@ -113,13 +113,12 @@
             const content = document.getElementById('content');
             content.innerHTML = '';
             content.appendChild(player);
-            const corsUrl = `https://cors-anywhere-oragne.vercel.app/api/cors?url=${decodeURIComponent(gameUrl)}`;
-            player.load(corsUrl);
+            player.load(gameUrl);
             showPopup();
             setTimeout(hidePopup, 2000);
           } else {
             var iframe = document.getElementById('gameIframe');
-            iframe.src = decodeURIComponent(gameUrl);
+            iframe.src = gameUrl;
             iframe.addEventListener('load', function() {
               showPopup();
               setTimeout(hidePopup, 2000);
