@@ -74,3 +74,4 @@ Stick Hero;https://script.google.com/macros/s/AKfycbxF22-1qUdrLc-FNKn3pDxJAkyzCI
 2048;https://script.google.com/macros/s/AKfycbz0VjCX6SwMHZDO4_MhYcq56VD2hzHJw58RGYHCgPolANg7-19ltPxKd2PDENevzW6q-A/exec
 Doodle Jump;https://script.google.com/macros/s/AKfycbzgc710jSZSotYrXvsala_ecwwtfm9H8eqAwZh305XDscu6LN23fWqdB6fRAsocxNg7aA/exec
 Trying To Be Victorious;https://script.google.com/macros/s/AKfycbz60vRrO-dlGW2tBLc0D7_HFdxmP_YIADTmyMfTXmv5Z4YKz8OwcxBE34JBMikayScpaQ/exec
+Run 2;https://archive.org/download/run-2_202112/Run%202.swf
