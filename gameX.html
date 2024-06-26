@@ -113,7 +113,7 @@
             const content = document.getElementById('content');
             content.innerHTML = '';
             content.appendChild(player);
-            const encodedUrl = encodeURIComponent(gameUrl);
+            const encodedUrl = gameUrl.split(' ').join('%20');
             const corsUrl = `https://cors-anywhere-oragne.vercel.app/api/cors?url=${encodedUrl}`;
             player.load(corsUrl);
             showPopup();
