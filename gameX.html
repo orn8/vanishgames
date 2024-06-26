@@ -6,6 +6,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
   </head>
   <style type="text/css">
     body, html {
@@ -103,13 +104,26 @@
         var gameTitle = urlParams.get('title');
         if (gameUrl) {
           document.title = "VanishGames - " + gameTitle;
-          var iframe = document.getElementById('gameIframe');
-          iframe.src = decodeURIComponent(gameUrl);
 
-          iframe.addEventListener('load', function() {
+          if (gameUrl.endsWith('.swf')) {
+            const ruffle = window.RufflePlayer.newest();
+            const player = ruffle.createPlayer();
+            player.style.width = '100%';
+            player.style.height = '100%';
+            const content = document.getElementById('content');
+            content.innerHTML = '';
+            content.appendChild(player);
+            player.load(decodeURIComponent(gameUrl));
             showPopup();
             setTimeout(hidePopup, 2000);
-          });
+          } else {
+            var iframe = document.getElementById('gameIframe');
+            iframe.src = decodeURIComponent(gameUrl);
+            iframe.addEventListener('load', function() {
+              showPopup();
+              setTimeout(hidePopup, 2000);
+            });
+          }
         }
       });
     </script>
