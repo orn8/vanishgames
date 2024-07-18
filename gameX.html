@@ -5,7 +5,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
   </head>
   <style type="text/css">
@@ -102,6 +102,9 @@
         var urlParams = new URLSearchParams(window.location.search);
         var gameUrl = urlParams.get('url');
         var gameTitle = urlParams.get('title');
+        
+        gameUrl = gameUrl.split(' ').join('%20');
+
         if (gameUrl) {
           document.title = "VanishGames - " + gameTitle;
 
@@ -113,9 +116,7 @@
             const content = document.getElementById('content');
             content.innerHTML = '';
             content.appendChild(player);
-            const encodedUrl = gameUrl.split(' ').join('%20');
-            const corsUrl = `https://cors-anywhere-oragne.vercel.app/api/cors?url=${encodedUrl}`;
-            player.load(corsUrl);
+            player.load(gameUrl);
             showPopup();
             setTimeout(hidePopup, 2000);
           } else {
