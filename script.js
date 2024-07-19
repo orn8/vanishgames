@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(response => response.text())
       .then(gamesString => {
         const lines = gamesString.split('\n');
-        const filteredLines = lines.filter(line => !line.trim().startsWith('##'));
+        const filteredLines = lines.filter(line => line.trim() !== '' && !line.trim().startsWith('##'));
         const filteredGamesString = filteredLines.join('\n');
         setupButtons(filteredGamesString);
       });
@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const [name, url] = line.split(';').map(part => part.trim());
         return { name, url };
       })
+      .filter(game => game.name && game.url)
       .sort((a, b) => a.name.localeCompare(b.name));
 
     const gamesHeading = document.querySelector('h1');
