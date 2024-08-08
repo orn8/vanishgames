@@ -83,5 +83,4 @@ Slope;https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cd
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
-Super Smash Flash 2;/flash/SuperSmashFlash2.swf
 Apple Shooter;/flash/AppleShooter.swf
