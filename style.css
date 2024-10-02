@@ -50,6 +50,15 @@ p {
     margin-bottom: 30px;
 }
 
+a {
+    color: #ffd700;
+}
+
+a:visited {
+    color: #fc6a04;
+}
+
+
 .button {
     display: inline-block;
     padding: 10px 20px;
