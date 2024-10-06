@@ -50,11 +50,11 @@ p {
     margin-bottom: 30px;
 }
 
-a.link {
+.link {
     color: #ffd700;
 }
 
-a.link:visited {
+.link:visited {
     color: #fc6a04;
 }
 
