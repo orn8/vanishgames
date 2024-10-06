@@ -1,4 +1,4 @@
-# ezclasswork
+# html
 Ninja vs EVILCORP;https://script.google.com/macros/s/AKfycbzzDZwyC-wQ6sCxoTSHZsaAWNb8d8i57-MMBysaZ4k8_VBBvEYATXcQFbj_jPybQQRyuA/exec
 Triska Reloaded;https://script.google.com/macros/s/AKfycbwcmFwOg3O3w7a0pp0Z_2uX6sKgcC8dhCxaGUNCXF6QNGkdAWhFBMj6brM5J1jp3dOC/exec
 Frontiers;https://script.google.com/macros/s/AKfycbxplKAzJws4d6U-YFXsGOJFsl3iEIuXhhAcZAXX3cd7wgqOms_ONXcCqPguNDeyYa39/exec
@@ -75,8 +75,6 @@ Stick Hero;https://script.google.com/macros/s/AKfycbxF22-1qUdrLc-FNKn3pDxJAkyzCI
 2048;https://script.google.com/macros/s/AKfycbz0VjCX6SwMHZDO4_MhYcq56VD2hzHJw58RGYHCgPolANg7-19ltPxKd2PDENevzW6q-A/exec
 Doodle Jump;https://script.google.com/macros/s/AKfycbzgc710jSZSotYrXvsala_ecwwtfm9H8eqAwZh305XDscu6LN23fWqdB6fRAsocxNg7aA/exec
 Trying To Be Victorious;https://script.google.com/macros/s/AKfycbz60vRrO-dlGW2tBLc0D7_HFdxmP_YIADTmyMfTXmv5Z4YKz8OwcxBE34JBMikayScpaQ/exec
-
-# unblockedgame76
 10 Bullets;https://bobydob.github.io/g56n2et
 10 More Bullets;https://bobydob.github.io/j73kd42o
 Slope;https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/version@843c1a10f4bf78019b513ea7a8a8c3146f3dfa59/2slope.xml&container=ig
