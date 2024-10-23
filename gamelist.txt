@@ -80,6 +80,7 @@ Trying To Be Victorious;https://script.google.com/macros/s/AKfycbz60vRrO-dlGW2tB
 Slope;https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/version@843c1a10f4bf78019b513ea7a8a8c3146f3dfa59/2slope.xml&container=ig
 Operius;https://bitfexl.github.io/operius/
 Grapple Tongue;https://ikatchelo.github.io/grapple/
+Deepest Sword;https://abinbins.github.io/a8/deepest-sword/
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
