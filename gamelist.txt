@@ -81,6 +81,8 @@ Slope;https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cd
 Operius;https://bitfexl.github.io/operius/
 Grapple Tongue;https://ikatchelo.github.io/grapple/
 Deepest Sword;https://abinbins.github.io/a8/deepest-sword/
+Starflail;https://html-classic.itch.zone/html/7837046/index.html
+Twisted Citadel;https://html-classic.itch.zone/html/2809617/index.html
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
