@@ -87,3 +87,7 @@ Twisted Citadel;https://html-classic.itch.zone/html/2809617/index.html
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
 Apple Shooter;/flash/AppleShooter.swf
+The World's Hardest Game;/flash/HardestGame1.swf
+The World's Hardest Game 2;/flash/HardestGame2.swf
+The World's Hardest Game 3;/flash/HardestGame3.swf
+The World's Hardest Game 4;/flash/HardestGame4.swf
