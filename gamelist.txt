@@ -83,6 +83,7 @@ Grapple Tongue;https://ikatchelo.github.io/grapple/
 Deepest Sword;https://abinbins.github.io/a8/deepest-sword/
 Starflail;https://html-classic.itch.zone/html/7837046/index.html
 Twisted Citadel;https://html-classic.itch.zone/html/2809617/index.html
+blocks;https://strangelinx.github.io/blocks/
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
