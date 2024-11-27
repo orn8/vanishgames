@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const searchInput = document.getElementById('searchInput');
 
   function triggerSearchButtonEffect() {
-    searchButton.style.backgroundColor = '#555';
+    searchButton.style.backgroundColor = '#FC6A04';
     searchButton.style.color = 'white';
     setTimeout(function() {
       if (!searchButton.matches(':hover')) {
@@ -67,26 +67,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (e.key === 'Enter') {
       triggerSearchButtonEffect();
       searchInput.blur();
-    }
-  });
-
-  searchButton.addEventListener('click', function() {
-    if (searchInput.value !== '') {
-      triggerSearchButtonEffect();
-    }
-  });
-
-  searchButton.addEventListener('mouseover', function() {
-    if (searchInput.value !== '') {
-      this.style.backgroundColor = '#555';
-      this.style.color = 'white';
-    }
-  });
-
-  searchButton.addEventListener('mouseout', function() {
-    if (!searchButton.matches(':hover')) {
-      this.style.backgroundColor = '';
-      this.style.color = '';
     }
   });
 
