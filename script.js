@@ -30,9 +30,9 @@ document.addEventListener('DOMContentLoaded', function() {
       button.dataset.url = game.url;
       button.classList.add('button');
       button.addEventListener('click', function() {
-        const gameTitle = game.name;
         const encodedUrl = encodeURIComponent(game.url);
-        window.open(`gameX.html?url=${encodedUrl}&title=${gameTitle}`, '_blank');
+        const encodedTitle = encodeURIComponent(game.name)
+        window.open(`gameX.html?url=${encodedUrl}&title=${encodedTitle}`, '_blank');
       });
       buttonsContainer.appendChild(button);
     });
