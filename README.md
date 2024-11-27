@@ -17,7 +17,7 @@ VanishGames is an ad-less, and fast website for unblocked games. Built with [HTM
 ## Current Features:
 
 - **No Ads:** Experience the magic of gaming, but without any ads.
-- **Many Games:** Enjoy a library of 70+ games!
+- **Many Games:** Enjoy a library of 70+ games! (soon)
 - **Simple, Minimalistic Design:** Don't focus on the site, focus on the games (this is definitely not me being bad at html).
 - **Blazing fast speeds:** Get to the games faster than ever before!
 
