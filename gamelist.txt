@@ -6,6 +6,7 @@ Grapple Tongue;https://ikatchelo.github.io/grapple/
 Deepest Sword;https://abinbins.github.io/a8/deepest-sword/
 blocks;https://strangelinx.github.io/blocks/
 Slope;https://windowslover1234.github.io/games/slope/
+Drift Boss;https://www.mathplayground.com/drift-boss-v3/index.html
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
