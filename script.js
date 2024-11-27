@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function triggerSearchButtonEffect() {
     searchButton.style.backgroundColor = '#FC6A04';
-    searchButton.style.color = 'white';
+    searchButton.style.color = '#f5f5f5';
     setTimeout(function() {
       if (!searchButton.matches(':hover')) {
         searchButton.style.backgroundColor = '';
