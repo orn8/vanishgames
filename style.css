@@ -69,6 +69,10 @@ p {
   line-height: 1.6;
   margin-bottom: 30px;
  }
+
+blockquote {
+  color: #777;
+}
   
 .link {
   color: #FC6A04;
