@@ -4,9 +4,11 @@
 Operius;https://bitfexl.github.io/operius/
 Grapple Tongue;https://ikatchelo.github.io/grapple/
 Deepest Sword;https://abinbins.github.io/a8/deepest-sword/
-blocks;https://strangelinx.github.io/blocks/
 Slope;https://slopenexus.github.io/games/unblocked/index.html
 Drift Boss;https://driftbossonline.github.io/file/
+SHUTTLEDECK;https://amyanddaniel.github.io/macvg/projects/shuttledeck/
+Coreball;https://core-ball.github.io/games/Core-Ball.html
+Doodle Jump;https://zanewesley.github.io/doodlejump/
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
