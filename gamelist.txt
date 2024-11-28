@@ -5,7 +5,7 @@ Operius;https://bitfexl.github.io/operius/
 Grapple Tongue;https://ikatchelo.github.io/grapple/
 Deepest Sword;https://abinbins.github.io/a8/deepest-sword/
 blocks;https://strangelinx.github.io/blocks/
-Slope;https://eggy-car.github.io/game9/slope/
+Slope;https://slopenexus.github.io/games/unblocked/index.html
 Drift Boss;https://driftbossonline.github.io/file/
 
 # flash
