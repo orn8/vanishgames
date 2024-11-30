@@ -10,6 +10,7 @@ SHUTTLEDECK;https://amyanddaniel.github.io/macvg/projects/shuttledeck/
 Coreball;https://core-ball.github.io/games/Core-Ball.html
 Doodle Jump;https://zanewesley.github.io/doodlejump/
 Slope Plus;https://slopenexus.github.io/games/plus/index.html
+2048;https://play2048game.github.io/
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
