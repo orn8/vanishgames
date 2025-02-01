@@ -4,12 +4,12 @@
 Operius;https://bitfexl.github.io/operius/
 Grapple Tongue;https://ikatchelo.github.io/grapple/
 Deepest Sword;https://abinbins.github.io/a8/deepest-sword/
-Slope;https://slopenexus.github.io/games/unblocked/index.html
+Slope;https://slopenexus.github.io/games/19-04v2.1/index.html
 Drift Boss;https://driftbossonline.github.io/file/
 SHUTTLEDECK;https://amyanddaniel.github.io/macvg/projects/shuttledeck/
 Coreball;https://core-ball.github.io/games/Core-Ball.html
 Doodle Jump;https://zanewesley.github.io/doodlejump/
-Slope Plus;https://slopenexus.github.io/games/plus/index.html
+Slope Plus;https://cryptodude3.github.io/slopeplus/
 2048;https://play2048game.github.io/
 
 # flash
