@@ -11,6 +11,7 @@ Coreball;https://core-ball.github.io/games/Core-Ball.html
 Doodle Jump;https://zanewesley.github.io/doodlejump/
 Slope Plus;https://cryptodude3.github.io/slopeplus/
 2048;https://play2048game.github.io/
+Fireboy and Watergirl in the Forest Temple;https://fireboyandwatergirlunblocked.github.io/
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
