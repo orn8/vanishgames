@@ -73,23 +73,44 @@ document.addEventListener('DOMContentLoaded', function() {
   fetchAndSetupButtons();
 });
 
-// App Menu
-document.addEventListener("DOMContentLoaded", () => {
-  const menuButton = document.getElementById("app-menu-button");
-  const menuGrid = document.getElementById("app-menu-grid");
+// App menu
+(function() {
+  // URLs for hosted files
+  const cssUrl = "https://raw.githubusercontent.com/orn8/appmenu/refs/heads/main/appmenu.css";
+  const jsUrl = "https://raw.githubusercontent.com/orn8/appmenu/refs/heads/main/appmenu.js";
+  const htmlUrl = "https://raw.githubusercontent.com/orn8/appmenu/refs/heads/main/appmenu.html";
 
-  menuButton.addEventListener("click", () => {
-    menuGrid.classList.toggle("show");
-  });
+  // Function to load CSS
+  function loadCSS(url) {
+      const link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = url;
+      document.head.appendChild(link);
+  }
 
-  const appItems = document.querySelectorAll(".app-menu-item");
+  // Function to load JavaScript
+  function loadJS(url) {
+      return new Promise((resolve, reject) => {
+          const script = document.createElement("script");
+          script.src = url;
+          script.onload = resolve;
+          script.onerror = reject;
+          document.body.appendChild(script);
+      });
+  }
 
-  appItems.forEach((item) => {
-    item.addEventListener("click", () => {
-      const link = item.dataset.link;
-      if (link) {
-        window.open(link, "_blank");
-      }
-    });
-  });
-});
+  // Function to load HTML and append it to the body
+  function loadHTML(url) {
+      return fetch(url)
+          .then(response => response.text())
+          .then(html => {
+              document.body.insertAdjacentHTML("afterbegin", html);
+          });
+  }
+
+  // Load CSS, HTML, and JS
+  loadCSS(cssUrl);
+  loadHTML(htmlUrl)
+      .then(() => loadJS(jsUrl))
+      .catch(error => console.error("Error loading app menu:", error));
+})();
