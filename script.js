@@ -76,9 +76,9 @@ document.addEventListener('DOMContentLoaded', function() {
 // App menu
 (function() {
   // URLs for hosted files
-  const cssUrl = "https://raw.githubusercontent.com/orn8/appmenu/refs/heads/main/appmenu.css";
-  const jsUrl = "https://raw.githubusercontent.com/orn8/appmenu/refs/heads/main/appmenu.js";
-  const htmlUrl = "https://raw.githubusercontent.com/orn8/appmenu/refs/heads/main/appmenu.html";
+  const cssUrl = "https://cdn.jsdelivr.net/gh/orn8/appmenu/appmenu.css";
+  const jsUrl = "https://cdn.jsdelivr.net/gh/orn8/appmenu/appmenu.js";
+  const htmlUrl = "https://cdn.jsdelivr.net/gh/orn8/appmenu/appmenu.html";
 
   // Function to load CSS
   function loadCSS(url) {
