@@ -28,4 +28,4 @@ The World's Hardest Game 3;/flash/HardestGame3.swf
 The World's Hardest Game 4;/flash/HardestGame4.swf
 Run;/flash/Run1.swf
 Run 2;/flash/Run2.swf
-Run 3;https://player03.com/run/3/Run3.swf
+Run 3;https://cors-anywhere-orn8.vercel.app/api/cors?url=https://player03.com/run/3/Run3.swf
