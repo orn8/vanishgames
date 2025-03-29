@@ -18,6 +18,7 @@ Fireboy and Watergirl in The Crystal Temple;https://incrediblewebsite.github.io/
 House of Hazards;https://houseofhazards.gitlab.io/file/
 Chemistry Brawl;https://liquid-nitrogen7.github.io/chemistry_brawl
 blocks;https://strangelinx.github.io/blocks/
+Run 3;https://blobby-boi.github.io/Run-3/
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
@@ -28,4 +29,3 @@ The World's Hardest Game 3;/flash/HardestGame3.swf
 The World's Hardest Game 4;/flash/HardestGame4.swf
 Run;/flash/Run1.swf
 Run 2;/flash/Run2.swf
-Run 3;https://cors-anywhere-orn8.vercel.app/api/cors?url=https://player03.com/run/3/Run3.swf
