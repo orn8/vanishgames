@@ -15,6 +15,9 @@ Fireboy and Watergirl in The Forest Temple;https://incrediblewebsite.github.io/f
 Fireboy and Watergirl in The Light Temple;https://incrediblewebsite.github.io/fbwg2/
 Fireboy and Watergirl in The Ice Temple;https://incrediblewebsite.github.io/fbwg3/
 Fireboy and Watergirl in The Crystal Temple;https://incrediblewebsite.github.io/fbwg4/
+House of Hazards;https://houseofhazards.gitlab.io/file/
+Chemistry Brawl;https://liquid-nitrogen7.github.io/chemistry_brawl
+blocks;https://strangelinx.github.io/blocks/
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
@@ -23,3 +26,6 @@ The World's Hardest Game;/flash/HardestGame1.swf
 The World's Hardest Game 2;/flash/HardestGame2.swf
 The World's Hardest Game 3;/flash/HardestGame3.swf
 The World's Hardest Game 4;/flash/HardestGame4.swf
+Run;/flash/Run1.swf
+Run 2;/flash/Run2.swf
+Run 3;https://player03.com/run/3/Run3.swf
