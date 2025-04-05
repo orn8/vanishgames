@@ -19,7 +19,6 @@ House of Hazards;https://houseofhazards.gitlab.io/file/
 Chemistry Brawl;https://liquid-nitrogen7.github.io/chemistry_brawl
 blocks;https://strangelinx.github.io/blocks/
 Run 3;https://blobby-boi.github.io/Run-3/
-AdBlock Tester;https://oragne-proxies.vercel.app/api/adless?url=https%3A%2F%2Fadblock-tester.com%2F%0A
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
