@@ -20,6 +20,7 @@ Chemistry Brawl;https://liquid-nitrogen7.github.io/chemistry_brawl
 blocks;https://strangelinx.github.io/blocks/
 Run 3;https://blobby-boi.github.io/Run-3/
 PolyTrack;https://polytrack.gg/content/uploads/polytrack/
+Basketball Random;https://ubg98.github.io/BasketRandom/
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
