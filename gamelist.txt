@@ -5,7 +5,6 @@ Operius;https://bitfexl.github.io/operius/
 Grapple Tongue;https://ikatchelo.github.io/grapple/
 Deepest Sword;https://abinbins.github.io/a8/deepest-sword/
 Slope;https://slopenexus.github.io/games/19-04v2.1/index.html
-Drift Boss;https://driftbossonline.github.io/file/
 SHUTTLEDECK;https://amyanddaniel.github.io/macvg/projects/shuttledeck/
 Coreball;https://core-ball.github.io/games/Core-Ball.html
 Doodle Jump;https://zanewesley.github.io/doodlejump/
@@ -20,7 +19,10 @@ Chemistry Brawl;https://liquid-nitrogen7.github.io/chemistry_brawl
 blocks;https://strangelinx.github.io/blocks/
 Run 3;https://blobby-boi.github.io/Run-3/
 PolyTrack;https://polytrack.gg/content/uploads/polytrack/
-Basketball Random;https://ubg98.github.io/BasketRandom/
+
+# html (non-github.io)
+Basket Random;https://basketball-random.com/gg/basketball-random/
+Drift Boss;https://www.hoodamath.com/mobile/games/drift-boss/game.html
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
