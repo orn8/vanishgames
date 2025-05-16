@@ -14,15 +14,15 @@ Fireboy and Watergirl in The Forest Temple;https://incrediblewebsite.github.io/f
 Fireboy and Watergirl in The Light Temple;https://incrediblewebsite.github.io/fbwg2/
 Fireboy and Watergirl in The Ice Temple;https://incrediblewebsite.github.io/fbwg3/
 Fireboy and Watergirl in The Crystal Temple;https://incrediblewebsite.github.io/fbwg4/
-House of Hazards;https://houseofhazards.gitlab.io/file/
+House of Hazards;https://datseagull.github.io/newgames/houseofhazards/index.html
 Chemistry Brawl;https://liquid-nitrogen7.github.io/chemistry_brawl
 blocks;https://strangelinx.github.io/blocks/
 Run 3;https://blobby-boi.github.io/Run-3/
-PolyTrack;https://polytrack.gg/content/uploads/polytrack/
 
 # html (non-github.io)
 Basket Random;https://basketball-random.com/gg/basketball-random/
 Drift Boss;https://www.hoodamath.com/mobile/games/drift-boss/game.html
+PolyTrack;https://polytrack.gg/content/uploads/polytrack/
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
