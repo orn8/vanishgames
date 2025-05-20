@@ -23,6 +23,7 @@ Run 3;https://blobby-boi.github.io/Run-3/
 Basket Random;https://basketball-random.com/gg/basketball-random/
 Drift Boss;https://www.hoodamath.com/mobile/games/drift-boss/game.html
 PolyTrack;https://polytrack.gg/content/uploads/polytrack/
+8 Ball Pool;https://papapi.us/games/8-ball/game.html
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
