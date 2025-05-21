@@ -27,6 +27,7 @@ PolyTrack;https://polytrack.gg/content/uploads/polytrack/
 Minecraft 1.5;https://papapi.us/games/minecraft-15/game.html
 Minecraft 1.8;https://papapi.us/games/minecraft-18/game.html
 Football Legends;https://papapi.us/games/football-legends/game.html
+Bouncy Basketball;https://r2.fizzerz.com/game-source/bouncy-basketball/index.html
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
