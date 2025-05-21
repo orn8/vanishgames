@@ -24,13 +24,13 @@ Edge Surf;https://usecosmic.github.io/games/Edgesurf/index.html
 # html (non-github.io)
 Basket Random;https://basketball-random.com/gg/basketball-random/
 Basket Random (Old Version);https://basketrandom.pro/game/basket-random/
-Boxing Random;https://papapi.us/games/boxing-random/game.html
+Boxing Random;https://r2.fizzerz.com/game-source/boxing-random/index.html
 Soccer Random;https://soccerrandomgame.com/gg/soccer-random/
 Drift Boss;https://www.hoodamath.com/mobile/games/drift-boss/game.html
 PolyTrack;https://polytrack.gg/content/uploads/polytrack/
-8 Ball Pool;https://papapi.us/games/8-ball/game.html
+8 Ball Pool;https://8-ball-pool-online.github.io/file/
 Minecraft 1.8;https://eaglercraft.com/mc/1.8.8/
-Football Legends;https://papapi.us/games/football-legends/game.html
+Football Legends;https://footballlegends-online.github.io/file/
 Bouncy Basketball;https://r2.fizzerz.com/game-source/bouncy-basketball/index.html
 
 # flash
