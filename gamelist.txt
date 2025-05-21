@@ -24,8 +24,7 @@ Basket Random;https://basketball-random.com/gg/basketball-random/
 Drift Boss;https://www.hoodamath.com/mobile/games/drift-boss/game.html
 PolyTrack;https://polytrack.gg/content/uploads/polytrack/
 8 Ball Pool;https://papapi.us/games/8-ball/game.html
-Minecraft 1.5;https://papapi.us/games/minecraft-15/game.html
-Minecraft 1.8;https://papapi.us/games/minecraft-18/game.html
+Eaglercraft;https://eaglercraft.com/mc/1.8.8/
 Football Legends;https://papapi.us/games/football-legends/game.html
 Bouncy Basketball;https://r2.fizzerz.com/game-source/bouncy-basketball/index.html
 
