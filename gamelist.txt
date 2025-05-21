@@ -29,7 +29,7 @@ Soccer Random;https://soccerrandomgame.com/gg/soccer-random/
 Drift Boss;https://www.hoodamath.com/mobile/games/drift-boss/game.html
 PolyTrack;https://polytrack.gg/content/uploads/polytrack/
 8 Ball Pool;https://papapi.us/games/8-ball/game.html
-EaglercraftX 1.8;https://eaglercraft.com/mc/1.8.8/
+Minecraft 1.8;https://eaglercraft.com/mc/1.8.8/
 Football Legends;https://papapi.us/games/football-legends/game.html
 Bouncy Basketball;https://r2.fizzerz.com/game-source/bouncy-basketball/index.html
 
