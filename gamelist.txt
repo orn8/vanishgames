@@ -33,6 +33,7 @@ Minecraft 1.8;https://eaglercraft.com/mc/1.8.8/
 Football Legends;https://footballlegends-online.github.io/file/
 Bouncy Basketball;https://r2.fizzerz.com/game-source/bouncy-basketball/index.html
 Stickman Hook;https://papapi.us/games/stickman-hook/game.html
+OvO;https://dedragames.com/games/ovo/1.4.1/
 
 # flash
 Super Smash Flash;/flash/SuperSmashFlash.swf
