@@ -3,22 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#FC6A04">
-    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#FC6A04">
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
     <title>VanishGames</title> </head>
@@ -92,31 +77,54 @@
       document.addEventListener('DOMContentLoaded', function() {
         const urlParams = new URLSearchParams(window.location.search);
         const onenoteParam = urlParams.get('onenote');
+        const head = document.head;
+
+        function addFaviconLinks(basePath, manifestPath, browserConfigPath = null) {
+          document.querySelectorAll('link[rel*="icon"], link[rel="apple-touch-icon"], link[rel="manifest"], meta[name="msapplication-config"]').forEach(link => link.remove());
+
+          const faviconData = [
+            { rel: 'apple-touch-icon', sizes: '57x57', href: `${basePath}apple-icon-57x57.png` },
+            { rel: 'apple-touch-icon', sizes: '60x60', href: `${basePath}apple-icon-60x60.png` },
+            { rel: 'apple-touch-icon', sizes: '72x72', href: `${basePath}apple-icon-72x72.png` },
+            { rel: 'apple-touch-icon', sizes: '76x76', href: `${basePath}apple-icon-76x76.png` },
+            { rel: 'apple-touch-icon', sizes: '114x114', href: `${basePath}apple-icon-114x114.png` },
+            { rel: 'apple-touch-icon', sizes: '120x120', href: `${basePath}apple-icon-120x120.png` },
+            { rel: 'apple-touch-icon', sizes: '144x144', href: `${basePath}apple-icon-144x144.png` },
+            { rel: 'apple-touch-icon', sizes: '152x152', href: `${basePath}apple-icon-152x152.png` },
+            { rel: 'apple-touch-icon', sizes: '180x180', href: `${basePath}apple-icon-180x180.png` },
+            { rel: 'icon', type: 'image/png', sizes: '192x192', href: `${basePath}android-icon-192x192.png` },
+            { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${basePath}favicon-32x32.png` },
+            { rel: 'icon', type: 'image/png', sizes: '96x96', href: `${basePath}favicon-96x96.png` },
+            { rel: 'icon', type: 'image/png', sizes: '16x16', href: `${basePath}favicon-16x16.png` }
+          ];
+
+          faviconData.forEach(data => {
+            const link = document.createElement('link');
+            link.rel = data.rel;
+            if (data.sizes) link.sizes = data.sizes;
+            if (data.type) link.type = data.type;
+            link.href = data.href;
+            head.appendChild(link);
+          });
+
+          const manifestLink = document.createElement('link');
+          manifestLink.rel = 'manifest';
+          manifestLink.href = manifestPath;
+          head.appendChild(manifestLink);
+
+          if (browserConfigPath) {
+            const msConfigMeta = document.createElement('meta');
+            msConfigMeta.name = 'msapplication-config';
+            msConfigMeta.content = browserConfigPath;
+            head.appendChild(msConfigMeta);
+          }
+        }
 
         if (onenoteParam === '1') {
           document.title = "OneNote";
-
-          const faviconLinks = document.querySelectorAll('link[rel*="icon"], link[rel="apple-touch-icon"]');
-          faviconLinks.forEach(link => {
-            const currentHref = link.getAttribute('href');
-            if (currentHref && currentHref.startsWith('/favicon/')) {
-              link.setAttribute('href', currentHref.replace('/favicon/', '/favicon/outlook/'));
-            }
-          });
-
-          const manifestLink = document.querySelector('link[rel="manifest"]');
-          if (manifestLink) {
-            manifestLink.setAttribute('href', '/favicon/outlook/manifest.json');
-          }
-
-          let msConfigMeta = document.querySelector('meta[name="msapplication-config"]');
-          if (!msConfigMeta) {
-              msConfigMeta = document.createElement('meta');
-              msConfigMeta.setAttribute('name', 'msapplication-config');
-              document.head.appendChild(msConfigMeta);
-          }
-          msConfigMeta.setAttribute('content', '/favicon/onenote/browserconfig.xml');
-
+          addFaviconLinks('/favicon/outlook/', '/favicon/outlook/manifest.json', '/favicon/onenote/browserconfig.xml');
+        } else {
+          addFaviconLinks('/favicon/', '/manifest.json');
         }
 
         const popup = document.createElement('div');
