@@ -76,12 +76,8 @@
         const urlParams = new URLSearchParams(window.location.search);
         const onenoteParam = urlParams.get('onenote');
 
-        if (onenoteParam === '1') {
-          document.title = "OneNote";
-        } else {
-          const gameTitle = urlParams.get('title');
-          document.title = 'VanishGames - ' + (gameTitle || "Game");
-        }
+        const gameTitle = urlParams.get('title');
+        document.title = 'VanishGames - ' + (gameTitle || "Game");
 
         const popup = document.createElement('div');
         popup.id = 'popup';
