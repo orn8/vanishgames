@@ -21,7 +21,7 @@
     <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#FC6A04">
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-  </head>
+    <title>VanishGames</title> </head>
   <style type="text/css">
     body, html {
     margin: 0;
@@ -90,6 +90,35 @@
     </div>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const onenoteParam = urlParams.get('onenote');
+
+        if (onenoteParam === '1') {
+          document.title = "OneNote";
+
+          const faviconLinks = document.querySelectorAll('link[rel*="icon"], link[rel="apple-touch-icon"]');
+          faviconLinks.forEach(link => {
+            const currentHref = link.getAttribute('href');
+            if (currentHref && currentHref.startsWith('/favicon/')) {
+              link.setAttribute('href', currentHref.replace('/favicon/', '/favicon/outlook/'));
+            }
+          });
+
+          const manifestLink = document.querySelector('link[rel="manifest"]');
+          if (manifestLink) {
+            manifestLink.setAttribute('href', '/favicon/outlook/manifest.json');
+          }
+
+          let msConfigMeta = document.querySelector('meta[name="msapplication-config"]');
+          if (!msConfigMeta) {
+              msConfigMeta = document.createElement('meta');
+              msConfigMeta.setAttribute('name', 'msapplication-config');
+              document.head.appendChild(msConfigMeta);
+          }
+          msConfigMeta.setAttribute('content', '/favicon/onenote/browserconfig.xml');
+
+        }
+
         const popup = document.createElement('div');
         popup.id = 'popup';
         popup.textContent = 'You must click the screen after this popup to enable input';
@@ -113,14 +142,15 @@
           hidePopup();
         });
       
-        var urlParams = new URLSearchParams(window.location.search);
         var gameUrl = urlParams.get('url');
         var gameTitle = urlParams.get('title');
         
-        gameUrl = gameUrl.split(' ').join('%20');
+        gameUrl = gameUrl ? gameUrl.split(' ').join('%20') : '';
       
         if (gameUrl) {
-          document.title = "VanishGames - " + gameTitle;
+          if (onenoteParam !== '1') {
+            document.title = "VanishGames - " + (gameTitle || "Game");
+          }
       
           if (gameUrl.endsWith('.swf')) {
             const ruffle = window.RufflePlayer.newest();
