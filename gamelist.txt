@@ -27,7 +27,6 @@ Basket Random (Old Version);https://basketrandom.pro/game/basket-random/
 Boxing Random;https://r2.fizzerz.com/game-source/boxing-random/index.html
 Soccer Random;https://soccerrandomgame.com/gg/soccer-random/
 Drift Boss;https://www.hoodamath.com/mobile/games/drift-boss/game.html
-PolyTrack;https://polytrack.gg/content/uploads/polytrack/
 8 Ball Pool;https://8-ball-pool-online.github.io/file/
 Minecraft 1.8;https://eaglercraft.com/mc/1.8.8/
 Football Legends;https://footballlegends-online.github.io/file/
