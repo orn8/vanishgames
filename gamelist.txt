@@ -15,7 +15,6 @@ Fireboy and Watergirl in The Light Temple;https://incrediblewebsite.github.io/fb
 Fireboy and Watergirl in The Ice Temple;https://incrediblewebsite.github.io/fbwg3/
 Fireboy and Watergirl in The Crystal Temple;https://incrediblewebsite.github.io/fbwg4/
 House of Hazards;https://datseagull.github.io/newgames/houseofhazards/index.html
-Chemistry Brawl;https://liquid-nitrogen7.github.io/chemistry_brawl
 Tetris;https://strangelinx.github.io/blocks/
 Run 3;https://blobby-boi.github.io/Run-3/
 Volley Random;https://narrow-one.github.io/n9/volley-random/
