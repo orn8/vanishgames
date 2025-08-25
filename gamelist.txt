@@ -19,6 +19,7 @@ Tetris;https://strangelinx.github.io/blocks/
 Run 3;https://blobby-boi.github.io/Run-3/
 Volley Random;https://narrow-one.github.io/n9/volley-random/
 Edge Surf;https://usecosmic.github.io/games/Edgesurf/index.html
+Smash Karts;https://unblockedgames-extensions.github.io/s/smashkarts/
 
 # html (non-github.io)
 Basket Random;https://basketball-random.com/gg/basketball-random/
